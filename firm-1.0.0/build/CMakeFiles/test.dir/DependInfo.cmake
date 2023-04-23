@@ -8,17 +8,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_ASM
-  "/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S" "/Users/jonah/pico/pcbrock/firm-1.0.0/build/CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-  "/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "/Users/jonah/pico/pcbrock/firm-1.0.0/build/CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
-  "/Users/jonah/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "/Users/jonah/pico/pcbrock/firm-1.0.0/build/CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
-  "/Users/jonah/pico/pico-sdk/src/rp2_common/pico_divider/divider.S" "/Users/jonah/pico/pcbrock/firm-1.0.0/build/CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
-  "/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S" "/Users/jonah/pico/pcbrock/firm-1.0.0/build/CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
-  "/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S" "/Users/jonah/pico/pcbrock/firm-1.0.0/build/CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
-  "/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S" "/Users/jonah/pico/pcbrock/firm-1.0.0/build/CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
-  "/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S" "/Users/jonah/pico/pcbrock/firm-1.0.0/build/CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
-  "/Users/jonah/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S" "/Users/jonah/pico/pcbrock/firm-1.0.0/build/CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
-  "/Users/jonah/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "/Users/jonah/pico/pcbrock/firm-1.0.0/build/CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
-  "/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S" "/Users/jonah/pico/pcbrock/firm-1.0.0/build/CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+  "/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S" "/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+  "/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S" "/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+  "/Users/jonah/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S" "/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+  "/Users/jonah/pico/pico-sdk/src/rp2_common/pico_divider/divider.S" "/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+  "/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S" "/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+  "/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S" "/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+  "/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S" "/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+  "/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S" "/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+  "/Users/jonah/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S" "/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+  "/Users/jonah/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+  "/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S" "/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
   )
 set(CMAKE_ASM_COMPILER_ID "GNU")
 
@@ -119,6 +119,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_flash/include"
   "/Users/jonah/pico/pico-sdk/src/common/pico_usb_reset_interface/include"
   "/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_i2c/include"
+  "/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_pwm/include"
   )
 
 # The set of dependency files which are needed:
@@ -181,17 +182,17 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c" "CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj" "gcc" "CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d"
   "/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c" "CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" "gcc" "CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d"
   "/Users/jonah/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c" "CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" "gcc" "CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d"
-  "/Users/jonah/pico/pcbrock/firm-1.0.0/AlgoBlocks.cpp" "CMakeFiles/test.dir/AlgoBlocks.cpp.obj" "gcc" "CMakeFiles/test.dir/AlgoBlocks.cpp.obj.d"
-  "/Users/jonah/pico/pcbrock/firm-1.0.0/AlgoCulture.cpp" "CMakeFiles/test.dir/AlgoCulture.cpp.obj" "gcc" "CMakeFiles/test.dir/AlgoCulture.cpp.obj.d"
-  "/Users/jonah/pico/pcbrock/firm-1.0.0/AlgoOver.cpp" "CMakeFiles/test.dir/AlgoOver.cpp.obj" "gcc" "CMakeFiles/test.dir/AlgoOver.cpp.obj.d"
-  "/Users/jonah/pico/pcbrock/firm-1.0.0/AlgoPlain.cpp" "CMakeFiles/test.dir/AlgoPlain.cpp.obj" "gcc" "CMakeFiles/test.dir/AlgoPlain.cpp.obj.d"
-  "/Users/jonah/pico/pcbrock/firm-1.0.0/AlgoReich.cpp" "CMakeFiles/test.dir/AlgoReich.cpp.obj" "gcc" "CMakeFiles/test.dir/AlgoReich.cpp.obj.d"
-  "/Users/jonah/pico/pcbrock/firm-1.0.0/AlgoSparse.cpp" "CMakeFiles/test.dir/AlgoSparse.cpp.obj" "gcc" "CMakeFiles/test.dir/AlgoSparse.cpp.obj.d"
-  "/Users/jonah/pico/pcbrock/firm-1.0.0/AlgoWonk.cpp" "CMakeFiles/test.dir/AlgoWonk.cpp.obj" "gcc" "CMakeFiles/test.dir/AlgoWonk.cpp.obj.d"
-  "/Users/jonah/pico/pcbrock/firm-1.0.0/Clock.cpp" "CMakeFiles/test.dir/Clock.cpp.obj" "gcc" "CMakeFiles/test.dir/Clock.cpp.obj.d"
+  "/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/AlgoBlocks.cpp" "CMakeFiles/test.dir/AlgoBlocks.cpp.obj" "gcc" "CMakeFiles/test.dir/AlgoBlocks.cpp.obj.d"
+  "/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/AlgoCulture.cpp" "CMakeFiles/test.dir/AlgoCulture.cpp.obj" "gcc" "CMakeFiles/test.dir/AlgoCulture.cpp.obj.d"
+  "/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/AlgoOver.cpp" "CMakeFiles/test.dir/AlgoOver.cpp.obj" "gcc" "CMakeFiles/test.dir/AlgoOver.cpp.obj.d"
+  "/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/AlgoPlain.cpp" "CMakeFiles/test.dir/AlgoPlain.cpp.obj" "gcc" "CMakeFiles/test.dir/AlgoPlain.cpp.obj.d"
+  "/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/AlgoReich.cpp" "CMakeFiles/test.dir/AlgoReich.cpp.obj" "gcc" "CMakeFiles/test.dir/AlgoReich.cpp.obj.d"
+  "/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/AlgoSparse.cpp" "CMakeFiles/test.dir/AlgoSparse.cpp.obj" "gcc" "CMakeFiles/test.dir/AlgoSparse.cpp.obj.d"
+  "/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/AlgoWonk.cpp" "CMakeFiles/test.dir/AlgoWonk.cpp.obj" "gcc" "CMakeFiles/test.dir/AlgoWonk.cpp.obj.d"
+  "/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/Clock.cpp" "CMakeFiles/test.dir/Clock.cpp.obj" "gcc" "CMakeFiles/test.dir/Clock.cpp.obj.d"
   "/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"
-  "/Users/jonah/pico/pcbrock/firm-1.0.0/jfunc.cpp" "CMakeFiles/test.dir/jfunc.cpp.obj" "gcc" "CMakeFiles/test.dir/jfunc.cpp.obj.d"
-  "/Users/jonah/pico/pcbrock/firm-1.0.0/main.cpp" "CMakeFiles/test.dir/main.cpp.obj" "gcc" "CMakeFiles/test.dir/main.cpp.obj.d"
+  "/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/jfunc.cpp" "CMakeFiles/test.dir/jfunc.cpp.obj" "gcc" "CMakeFiles/test.dir/jfunc.cpp.obj.d"
+  "/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/main.cpp" "CMakeFiles/test.dir/main.cpp.obj" "gcc" "CMakeFiles/test.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links.

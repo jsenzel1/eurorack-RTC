@@ -43,9 +43,9 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_printf/printf.
  /Users/jonah/pico/pico-sdk/src/rp2_common/pico_printf/include/pico/printf.h \
  /Users/jonah/pico/pico-sdk/src/common/pico_base/include/pico.h \
  /Users/jonah/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
- /Users/jonah/pico/pcbrock/firm-1.0.0/build/generated/pico_base/pico/version.h \
+ /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/generated/pico_base/pico/version.h \
  /Users/jonah/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
- /Users/jonah/pico/pcbrock/firm-1.0.0/build/generated/pico_base/pico/config_autogen.h \
+ /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/generated/pico_base/pico/config_autogen.h \
  /Users/jonah/pico/pico-sdk/src/boards/include/boards/pico.h \
  /Users/jonah/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /Users/jonah/pico/pico-sdk/src/common/pico_base/include/pico/error.h \

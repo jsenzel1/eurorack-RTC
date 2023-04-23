@@ -1,6 +1,6 @@
 CMakeFiles/test.dir/AlgoSparse.cpp.obj: \
- /Users/jonah/pico/pcbrock/firm-1.0.0/AlgoSparse.cpp \
- /Users/jonah/pico/pcbrock/firm-1.0.0/AlgoSparse.h \
+ /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/AlgoSparse.cpp \
+ /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/AlgoSparse.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdio.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/newlib.h \
@@ -44,9 +44,9 @@ CMakeFiles/test.dir/AlgoSparse.cpp.obj: \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdint.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_intsup.h \
- /Users/jonah/pico/pcbrock/firm-1.0.0/build/generated/pico_base/pico/version.h \
+ /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/generated/pico_base/pico/version.h \
  /Users/jonah/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
- /Users/jonah/pico/pcbrock/firm-1.0.0/build/generated/pico_base/pico/config_autogen.h \
+ /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/generated/pico_base/pico/config_autogen.h \
  /Users/jonah/pico/pico-sdk/src/boards/include/boards/pico.h \
  /Users/jonah/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /Users/jonah/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
@@ -77,7 +77,7 @@ CMakeFiles/test.dir/AlgoSparse.cpp.obj: \
  /Users/jonah/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
  /Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h \
  /Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/include/pico/stdio_usb.h \
- /Users/jonah/pico/pcbrock/firm-1.0.0/jfunc.h \
+ /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/jfunc.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/math.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/cmath \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/bits/cpp_type_traits.h \

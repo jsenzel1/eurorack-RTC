@@ -34,8 +34,10 @@ class AlgoReich
    int inPin;  
    int outPin;  
 
-   //isA, inPin, outPin, weekday, cycle, //[maybe]spread
-   void init(bool,int,int,int,int);//,int);
+   long seed;
+
+   //isA, inPin, outPin, weekday, cycle, seed //[maybe]spread
+   void init(bool,int,int,int,int,long);//,int);
    
    void tick();
    bool stepVal;

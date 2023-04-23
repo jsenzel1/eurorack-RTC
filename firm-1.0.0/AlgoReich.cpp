@@ -5,11 +5,11 @@ AlgoReich::AlgoReich()
 {
 }
 
-void AlgoReich:: init(bool tempIsA, int tempInPin, int tempOutPin,int tempWeekday, int tempCycle) //int tempSpread)
+void AlgoReich:: init(bool tempIsA, int tempInPin, int tempOutPin,int tempWeekday, int tempCycle, long tempSeed) //int tempSpread)
 {
 
   //set to -1 to disable
-  testVarSeqMax=6;
+  testVarSeqMax=-1;
   //testVarSeqMax=-1;
   //
 
@@ -21,11 +21,13 @@ void AlgoReich:: init(bool tempIsA, int tempInPin, int tempOutPin,int tempWeekda
   //B
       testVarSeqMax=7;
   }
+  testVarSeqMax=-1;
 
   inPin=tempInPin;
   outPin=tempOutPin;
   myWeekday=tempWeekday+1;
   cyclePos=tempCycle;
+  seed=tempSeed;
 
   //spread=tempSpread;
   isA=tempIsA;
@@ -33,43 +35,48 @@ void AlgoReich:: init(bool tempIsA, int tempInPin, int tempOutPin,int tempWeekda
   printf("\n");
   printf("ALGOOOREICH\n");
 
+  switch (cyclePos)
+  {
+      //new moon
+      case 0:
+          seqMax=random(5,6+1);
+          break;
+
+      //waxing or waning crescent
+      case 1:
+      case 7:
+          seqMax=random(7,9+1);
+          break;
+
+      //first or last quarter
+      case 2:
+      case 6:
+          seqMax=(10,12+1);
+          break;
+
+      //waxing or waning gibbous
+      case 3:
+      case 5:
+
+          srand(seed);
+          seqMax=random(13,15+1);
+          break;
+
+      case 4:
+          //seqMax=random(20,40+1);
+          seqMax=16;
+          break;
+
+  }
 
   //seqMax=random(4,8);
 
   //SETTING VARS FOR TESTING
   //myWeekday=
   //cyclePos=
-  if(cyclePos==0)
-  {
-	seqMax=6+random(-1,1);
-  }
 
-  //Pre full(add first quarter specific?
-  if(cyclePos>0 && cyclePos < 4)
-  {
-	seqMax=map(cyclePos,1,3,5,9)+random(-2,2);
-	printf("%d\n", map(1,1,3,5,9)+random(-2,2));
-  }
 
-  //Full Moon
-  if(cyclePos==4)
-  {
-	seqMax=9+random(-3,3);
-  }
 
-  //Post full
-  if(cyclePos>4)// && cyclePos<8)
-  {
-	int minProb=map(cyclePos,5,7,6,3);
-	int maxProb=map(cyclePos,5,7,10,6);
-
-	seqMax=random(minProb,maxProb);
-  }
-
-  if(testVarSeqMax > -1)
-  {
-    seqMax=testVarSeqMax;
-  }
 
   for(int i=0; i<32; i++)
   {
@@ -82,9 +89,9 @@ void AlgoReich:: init(bool tempIsA, int tempInPin, int tempOutPin,int tempWeekda
 
   //LOG TO CONSOLE
   //
-  
+
   //printf("reich cycle read: %d \n",cyclePos);
-  
+
   printf("Reich Seq Density: %d \n", seqDensity);
   printf("Reich Seq Max: %d \n",seqMax);
 
@@ -121,7 +128,7 @@ void AlgoReich:: tick()
   if(timer<100)
   {
       //timer=0;
-  } 
+  }
 
   int div=100/timer;
   printf("div: %d \n",100/timer);
@@ -141,7 +148,7 @@ void AlgoReich:: tick()
     {
 
       played=true;
-    
+
       //CHECK MAX RESET
       if(seqInd > seqMax-1)
       {

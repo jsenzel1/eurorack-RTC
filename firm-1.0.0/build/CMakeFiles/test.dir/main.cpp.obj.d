@@ -1,5 +1,5 @@
 CMakeFiles/test.dir/main.cpp.obj: \
- /Users/jonah/pico/pcbrock/firm-1.0.0/main.cpp \
+ /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/main.cpp \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdio.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/_ansi.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/newlib.h \
@@ -49,9 +49,9 @@ CMakeFiles/test.dir/main.cpp.obj: \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/stdint.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/sys/_intsup.h \
- /Users/jonah/pico/pcbrock/firm-1.0.0/build/generated/pico_base/pico/version.h \
+ /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/generated/pico_base/pico/version.h \
  /Users/jonah/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
- /Users/jonah/pico/pcbrock/firm-1.0.0/build/generated/pico_base/pico/config_autogen.h \
+ /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/generated/pico_base/pico/config_autogen.h \
  /Users/jonah/pico/pico-sdk/src/boards/include/boards/pico.h \
  /Users/jonah/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  /Users/jonah/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
@@ -106,8 +106,8 @@ CMakeFiles/test.dir/main.cpp.obj: \
  /Users/jonah/pico/pico-sdk/lib/tinyusb/src/device/usbd.h \
  /Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h \
  /Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc.h \
- /Users/jonah/pico/pcbrock/firm-1.0.0/Manager.h \
- /Users/jonah/pico/pcbrock/firm-1.0.0/jfunc.h \
+ /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/Manager.h \
+ /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/jfunc.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/math.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/cmath \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/bits/cpp_type_traits.h \
@@ -148,15 +148,15 @@ CMakeFiles/test.dir/main.cpp.obj: \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/tr1/riemann_zeta.tcc \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/stdlib.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/cstdlib \
- /Users/jonah/pico/pcbrock/firm-1.0.0/AlgoPlain.h \
- /Users/jonah/pico/pcbrock/firm-1.0.0/AlgoReich.h \
- /Users/jonah/pico/pcbrock/firm-1.0.0/AlgoCulture.h \
- /Users/jonah/pico/pcbrock/firm-1.0.0/AlgoSparse.h \
- /Users/jonah/pico/pcbrock/firm-1.0.0/AlgoBlocks.h \
- /Users/jonah/pico/pcbrock/firm-1.0.0/AlgoWonk.h \
- /Users/jonah/pico/pcbrock/firm-1.0.0/AlgoOver.h \
- /Users/jonah/pico/pcbrock/firm-1.0.0/Moon.h \
- /Users/jonah/pico/pcbrock/firm-1.0.0/Clock.h \
+ /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/AlgoPlain.h \
+ /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/AlgoReich.h \
+ /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/AlgoCulture.h \
+ /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/AlgoSparse.h \
+ /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/AlgoBlocks.h \
+ /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/AlgoWonk.h \
+ /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/AlgoOver.h \
+ /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/Moon.h \
+ /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/Clock.h \
  /Users/jonah/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info.h \
  /Users/jonah/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h \
  /Users/jonah/pico/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/structure.h \
@@ -164,8 +164,11 @@ CMakeFiles/test.dir/main.cpp.obj: \
  /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
  /Users/jonah/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
  /Users/jonah/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
- /Users/jonah/pico/pcbrock/firm-1.0.0/Light.h \
- /Users/jonah/pico/pcbrock/firm-1.0.0/PhaseData.h \
+ /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/Light.h \
+ /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h \
+ /Users/jonah/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pwm.h \
+ /Users/jonah/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pwm.h \
+ /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/PhaseData.h \
  /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
  /Users/jonah/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
  /Users/jonah/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h

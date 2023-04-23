@@ -1,4 +1,4 @@
-// Padded and checksummed version of: /Users/jonah/pico/pcbrock/firm-1.0.0/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

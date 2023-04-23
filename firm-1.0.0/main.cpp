@@ -1,15 +1,15 @@
 //TEST VARS
-bool usbWait=true;
+bool usbWait=false;
 bool clockWrite=false;
 
 //set to -1 to disable
 int testVarCycle=-1;
+//set to -1 to disable
+int testVarEpoch=-1;
 
 // true=random rolls on startup
-bool testVarRandom=true;
-int  testVarSeed=53;
-// set to -1 to disable
-int testVarEpoch=-1;
+bool testVarRandom=false;
+int  testVarSeed=150;
 
 int curEpoch=0;
 int seedOffset=1;
@@ -203,7 +203,7 @@ void clockSetup()
     long diff = difftime(time2, time1);
 
     // convert to days
-    int days = (int) (diff / (60 * 60 * 24));
+    long days = (int) (diff / (60 * 60 * 24));
 
     printf("days since jan 1 2020: %d ",days);
 
@@ -229,9 +229,14 @@ void clockSetup()
 
     printf("cycles passed %d \n",cyclesPassed);
 
-    curEpoch= cyclesPassed % 3;
+    curEpoch= cyclesPassed % 2;
 
     //curEpoch=myMoon.calcEpoch(curYear+2000,curMonth,today);
+    //
+    if(testVarEpoch > -1)
+    {
+        curEpoch=testVarEpoch;
+    }
 
     printf("epoch: %d",curEpoch);
 
@@ -249,8 +254,14 @@ void algoSetup()
 	printf("CURRENT: Plain Algo\n");
 	printf("cycle read: %d \n",cycle);
 
-    myPlain1 = new AlgoPlain(inPin1,outPin1,curWeekday,cycle);
-    myPlain2 = new AlgoPlain(inPin2,outPin2,curWeekday,cycle);
+    myPlain1 = new AlgoPlain(inPin1,outPin1,curWeekday,cycle,todaySeed);
+
+    if(cycle==4)
+    {
+        srand(todaySeed);
+    }
+
+    myPlain2 = new AlgoPlain(inPin2,outPin2,curWeekday,cycle,todaySeed);
 
     myPlain1->init();
     //srand(todaySeed);
@@ -264,17 +275,17 @@ void algoSetup()
     myReich1 = new AlgoReich();
     myReich2 = new AlgoReich();
 
-    myReich1->init(true,inPin1,outPin1,curWeekday,cycle);
+    myReich1->init(true,inPin1,outPin1,curWeekday,cycle,todaySeed);
 
     if(cycle==4)
     {
 
         srand(todaySeed);
-        myReich2->init(true,inPin2,outPin2,curWeekday,cycle);
+        myReich2->init(true,inPin2,outPin2,curWeekday,cycle,todaySeed);
 
     }else{
 
-        myReich2->init(false,inPin2,outPin2,curWeekday,cycle);
+        myReich2->init(false,inPin2,outPin2,curWeekday,cycle,todaySeed);
 
     }
 
@@ -384,8 +395,14 @@ void loop()
   	switch(curEpoch)
   	{
   	case 0:
+
   		myPlain1->tick();
+
+        if(cycle != 0)
+        {
   		myPlain2->tick();
+        }
+
      break;
 
   	case 1:
@@ -493,6 +510,7 @@ int main(){
         printf("hello petrock cycle %d \n",cycle);
 
         printf("XOSC startup var read: %d \n", PICO_XOSC_STARTUP_DELAY_MULTIPLIER);
+
 
     while(true)
     {

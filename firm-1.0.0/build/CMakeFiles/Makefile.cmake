@@ -7,14 +7,14 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/Users/jonah/pico/pcbrock/firm-1.0.0/CMakeLists.txt"
+  "/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/CMakeLists.txt"
   "CMakeFiles/3.24.2/CMakeASMCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.24.2/CMakeSystem.cmake"
   "elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake"
   "pico-sdk/src/rp2_common/cyw43_driver/pioasm/tmp/PioasmBuild-mkdirs.cmake"
-  "/Users/jonah/pico/pcbrock/firm-1.0.0/pico_sdk_import.cmake"
+  "/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/pico_sdk_import.cmake"
   "/Users/jonah/pico/pico-sdk/CMakeLists.txt"
   "/Users/jonah/pico/pico-sdk/cmake/Platform/PICO.cmake"
   "/Users/jonah/pico/pico-sdk/cmake/pico_pre_load_platform.cmake"

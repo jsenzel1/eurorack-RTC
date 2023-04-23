@@ -1,5 +1,5 @@
 CMakeFiles/test.dir/jfunc.cpp.obj: \
- /Users/jonah/pico/pcbrock/firm-1.0.0/jfunc.cpp \
+ /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/jfunc.cpp \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/stdlib.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/cstdlib \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h \
@@ -24,7 +24,7 @@ CMakeFiles/test.dir/jfunc.cpp.obj: \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/machine/stdlib.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/alloca.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/bits/std_abs.h \
- /Users/jonah/pico/pcbrock/firm-1.0.0/jfunc.h \
+ /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/jfunc.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/math.h \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/cmath \
  /opt/homebrew/Cellar/arm-none-eabi-gcc/10.3-2021.07/gcc/arm-none-eabi/include/c++/10.3.1/bits/cpp_type_traits.h \

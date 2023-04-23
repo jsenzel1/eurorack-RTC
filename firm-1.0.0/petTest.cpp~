@@ -381,7 +381,8 @@ int main(){
     while (!tud_cdc_connected()) { sleep_ms(100); }
     }
 
-        sleep_ms(500);
+        //uncomment maybe
+        //sleep_ms(500);
         
         //sleep_ms(500);
         setup();

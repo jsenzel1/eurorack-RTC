@@ -17,6 +17,9 @@ class AlgoPlain
 	  int cyclePos;
 
   public:
+
+      int seed;
+
       int inPin;
 	  int outPin;
 	  
@@ -25,8 +28,8 @@ class AlgoPlain
 
 	  bool stepVal;
 
-      //inpin outpin ledpin, weekday, cycle
-	  AlgoPlain(int,int,int,int);
+      //inpin outpin ledpin, weekday, cycle,seed
+	  AlgoPlain(int,int,int,int,int);
 
 	  ~AlgoPlain();
 };

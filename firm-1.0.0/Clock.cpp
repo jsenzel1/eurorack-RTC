@@ -70,7 +70,8 @@ void Clock:: readClock() {
     i2c_read_blocking(i2c_default, 0x68, raw_time, 7, false);
 
     //DO WE NEED THIS SLEEP?
-    sleep_ms(500);
+    //uncomment maybe 
+    //sleep_ms(500);
     second = (10 * (int) ((raw_time[0] & 0x70) >> 4)) + ((int) (raw_time[0] & 0x0F));
 
     second = (10 * (int) ((raw_time[0] & 0x70) >> 4)) + ((int) (raw_time[0] & 0x0F));

@@ -1,13 +1,14 @@
 #include "AlgoPlain.h"
 #include "jfunc.h"
 
-AlgoPlain::AlgoPlain(int tempInPin, int tempOutPin,int tempWeekday, int tempCycle)
+AlgoPlain::AlgoPlain(int tempInPin, int tempOutPin,int tempWeekday, int tempCycle, int tempSeed)
 {
 	outPin=tempOutPin;
 	inPin=tempInPin;
 
 	weekday=tempWeekday;
 	cyclePos=tempCycle;
+    seed=tempSeed;
 }
 
 void AlgoPlain::init()
@@ -19,55 +20,54 @@ void AlgoPlain::init()
 
     switch (cyclePos)
     {
+        //new moon
         case 0:
-            seqMax=8;
+            seqMax=random(5,6+1);
             break;
 
+        //waxing or waning crescent
         case 1:
-            seqMax=12;
+        case 7:
+            seqMax=random(7,9+1);
             break;
 
+        //first or last quarter
         case 2:
+        case 6:
+            seqMax=(10,12+1);
+            break;
+
+        //waxing or waning gibbous
+        case 3:
+        case 5:
+
+            srand(seed);
+            seqMax=random(13,15+1);
+            break;
+				//full moon
+        case 4:
+						//seqMax=random(20,40+1);
             seqMax=16;
             break;
-        
-        case 3:
-            seqMax=32;
-            break;
 
-        case 4:
-            seqMax=random(20,40+1);
-            break;
-
-        case 5:
-            seqMax=random(10,30+1); 
-
-            break;
-
-        case 6:
-            seqMax=random(5,20+1);;
-            break;
-        
-        case 7:
-            seqMax=(5,16+1);
-            break;
     }
-   
+
 	//seqMax=random(4,24);
 	printf("-----\n Max: ");
 	printf("%d \n", seqMax);
 
 	for(int i=0; i<seqMax; i++)
 	{
-		printf("%d", seq[i]);
+		printf("%d ", seq[i]);
 	}
+
     printf("\n -----");
 }
 
 void AlgoPlain:: tick()
 {
 	//printf("gp %d \n", gpio_get(inPin));
-    
+
     int state=gpio_get(inPin);
 
     if(state>0)
@@ -78,7 +78,7 @@ void AlgoPlain:: tick()
            {
                printf("blip");
                gpio_put(outPin,0);
-           } 
+           }
 
            seqInd++;
 

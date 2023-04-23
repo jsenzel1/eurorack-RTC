@@ -57,18 +57,16 @@ class Light
         switch(epoch)
         {
             case 0:
-                rVal=250;
-                gVal=70;   
-                bVal=70;
-                printf("case 0");
-                break;
+                rVal=157;
+                gVal=30;   
+                bVal=30;
+                printf("got to case");
 
             case 1:
                 rVal=67;
                 gVal=160;   
                 bVal=255;
-                printf("case 1");
-                break;
+                printf("got to case");
         }
 
         rVal=(rVal*100)/255;
@@ -102,16 +100,6 @@ class Light
 
 				rVal-=14;
 				gVal-=18;
-
-                if(rVal<0)
-                {
-                    rVal=0;
-                }
-
-                if(gVal<0)
-                {
-                    gVal=0;
-                }
 
                 printf("rval %d",rVal);
 
