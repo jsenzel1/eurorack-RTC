@@ -41,10 +41,10 @@ void Clock:: writeClock() {
     uint8_t buf[2];
 
     int second=30;
-    int minute=22;
-    int hour=14;
-    int day=6;
-    int weekday=4;
+    int minute=28;
+    int hour=19;
+    int day=29;
+    int weekday=6;
     int month=4;
     int year=23;
 

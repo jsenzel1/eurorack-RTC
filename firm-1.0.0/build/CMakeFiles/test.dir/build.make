@@ -195,10 +195,24 @@ CMakeFiles/test.dir/AlgoSparse.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/AlgoSparse.cpp.s"
 	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/AlgoSparse.cpp -o CMakeFiles/test.dir/AlgoSparse.cpp.s
 
+CMakeFiles/test.dir/AlgoVari.cpp.obj: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/AlgoVari.cpp.obj: /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/AlgoVari.cpp
+CMakeFiles/test.dir/AlgoVari.cpp.obj: CMakeFiles/test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/test.dir/AlgoVari.cpp.obj"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/AlgoVari.cpp.obj -MF CMakeFiles/test.dir/AlgoVari.cpp.obj.d -o CMakeFiles/test.dir/AlgoVari.cpp.obj -c /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/AlgoVari.cpp
+
+CMakeFiles/test.dir/AlgoVari.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/AlgoVari.cpp.i"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/AlgoVari.cpp > CMakeFiles/test.dir/AlgoVari.cpp.i
+
+CMakeFiles/test.dir/AlgoVari.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/AlgoVari.cpp.s"
+	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/AlgoVari.cpp -o CMakeFiles/test.dir/AlgoVari.cpp.s
+
 CMakeFiles/test.dir/Clock.cpp.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Clock.cpp.obj: /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/Clock.cpp
 CMakeFiles/test.dir/Clock.cpp.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/test.dir/Clock.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/test.dir/Clock.cpp.obj"
 	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/Clock.cpp.obj -MF CMakeFiles/test.dir/Clock.cpp.obj.d -o CMakeFiles/test.dir/Clock.cpp.obj -c /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/Clock.cpp
 
 CMakeFiles/test.dir/Clock.cpp.i: cmake_force
@@ -212,7 +226,7 @@ CMakeFiles/test.dir/Clock.cpp.s: cmake_force
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -226,7 +240,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -240,7 +254,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
@@ -254,7 +268,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_claim/clai
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
@@ -268,7 +282,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_platform/platf
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -282,7 +296,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_sync/sync.
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -295,7 +309,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building ASM object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building ASM object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -309,7 +323,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_irq/irq_ha
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /Users/jonah/pico/pico-sdk/src/common/pico_sync/sem.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /Users/jonah/pico/pico-sdk/src/common/pico_sync/sem.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -323,7 +337,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/sem.c.s: cmak
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /Users/jonah/pico/pico-sdk/src/common/pico_sync/lock_core.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /Users/jonah/pico/pico-sdk/src/common/pico_sync/lock_core.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -337,7 +351,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_time/time.c.obj: /Users/jonah/pico/pico-sdk/src/common/pico_time/time.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_time/time.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_time/time.c.obj -c /Users/jonah/pico/pico-sdk/src/common/pico_time/time.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -351,7 +365,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_time/time.c.s: cma
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /Users/jonah/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /Users/jonah/pico/pico-sdk/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -365,7 +379,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_time/timeout_helpe
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -379,7 +393,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_timer/time
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /Users/jonah/pico/pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /Users/jonah/pico/pico-sdk/src/common/pico_util/datetime.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -393,7 +407,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_util/datetime.c.s:
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /Users/jonah/pico/pico-sdk/src/common/pico_util/pheap.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /Users/jonah/pico/pico-sdk/src/common/pico_util/pheap.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -407,7 +421,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_util/pheap.c.s: cm
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_util/queue.c.obj: /Users/jonah/pico/pico-sdk/src/common/pico_util/queue.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_util/queue.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /Users/jonah/pico/pico-sdk/src/common/pico_util/queue.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -421,7 +435,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_util/queue.c.s: cm
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /Users/jonah/pico/pico-sdk/src/common/pico_sync/mutex.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /Users/jonah/pico/pico-sdk/src/common/pico_sync/mutex.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -435,7 +449,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/mutex.c.s: cm
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /Users/jonah/pico/pico-sdk/src/common/pico_sync/critical_section.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /Users/jonah/pico/pico-sdk/src/common/pico_sync/critical_section.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -449,7 +463,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/common/pico_sync/critical_sect
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -462,7 +476,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_uart/uart.
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building ASM object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -476,7 +490,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_divider/di
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -490,7 +504,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_runtime/runtim
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -504,7 +518,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_clocks/clo
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -518,7 +532,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -532,7 +546,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -546,7 +560,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_watchdog/w
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -560,7 +574,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -573,7 +587,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_printf/printf.
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building ASM object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /Users/jonah/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -587,7 +601,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_op
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -600,7 +614,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_bootrom/bootro
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /Users/jonah/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
@@ -613,7 +627,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_divider/divide
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
@@ -627,7 +641,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
@@ -641,7 +655,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -654,7 +668,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building ASM object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
@@ -667,7 +681,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_double/double_
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building ASM object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /Users/jonah/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -680,7 +694,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building ASM object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building ASM object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
@@ -694,7 +708,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_ae
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
@@ -708,7 +722,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_in
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -721,7 +735,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_ma
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building ASM object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
@@ -735,7 +749,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_float/float_v1
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
@@ -748,7 +762,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_malloc/pico_ma
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building ASM object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building ASM object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /Users/jonah/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -761,7 +775,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_op
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building ASM object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building ASM object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
@@ -775,7 +789,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
 	/opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
@@ -789,7 +803,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
@@ -803,7 +817,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -817,7 +831,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
@@ -831,7 +845,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_uart/std
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
@@ -845,7 +859,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/rese
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
@@ -859,7 +873,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdi
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
@@ -873,7 +887,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdi
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: /Users/jonah/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -c /Users/jonah/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -887,7 +901,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/portable/raspberry
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: /Users/jonah/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -c /Users/jonah/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -901,7 +915,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/portable/raspberry
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: /Users/jonah/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -c /Users/jonah/pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -915,7 +929,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s: c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: /Users/jonah/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -c /Users/jonah/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -929,7 +943,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/device/usbd_contro
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: /Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -c /Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -943,7 +957,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: /Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -c /Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -957,7 +971,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_devi
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: /Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -c /Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -971,7 +985,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_devi
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: /Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -c /Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -985,7 +999,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_d
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: /Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -c /Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -999,7 +1013,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_devi
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: /Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -c /Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -1013,7 +1027,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_de
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: /Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -c /Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -1027,7 +1041,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_devi
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: /Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -c /Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -1041,7 +1055,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndi
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: /Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -c /Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -1055,7 +1069,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_devi
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: /Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -c /Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -1069,7 +1083,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtm
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: /Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -c /Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -1083,7 +1097,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendo
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: /Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -c /Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -1097,7 +1111,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/class/video/video_
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: /Users/jonah/pico/pico-sdk/lib/tinyusb/src/tusb.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -c /Users/jonah/pico/pico-sdk/lib/tinyusb/src/tusb.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -1111,7 +1125,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_fo
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: /Users/jonah/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -c /Users/jonah/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -1125,7 +1139,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -1139,7 +1153,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -1153,7 +1167,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_unique_id/uniq
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -1167,7 +1181,7 @@ CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_flash/flas
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: CMakeFiles/test.dir/flags.make
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj: CMakeFiles/test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj"
 	/opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -MF CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj.d -o CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.obj -c /Users/jonah/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c
 
 CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_i2c/i2c.c.i: cmake_force
@@ -1189,6 +1203,7 @@ test_OBJECTS = \
 "CMakeFiles/test.dir/AlgoBlocks.cpp.obj" \
 "CMakeFiles/test.dir/AlgoWonk.cpp.obj" \
 "CMakeFiles/test.dir/AlgoSparse.cpp.obj" \
+"CMakeFiles/test.dir/AlgoVari.cpp.obj" \
 "CMakeFiles/test.dir/Clock.cpp.obj" \
 "CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
 "CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
@@ -1273,6 +1288,7 @@ test.elf: CMakeFiles/test.dir/AlgoCulture.cpp.obj
 test.elf: CMakeFiles/test.dir/AlgoBlocks.cpp.obj
 test.elf: CMakeFiles/test.dir/AlgoWonk.cpp.obj
 test.elf: CMakeFiles/test.dir/AlgoSparse.cpp.obj
+test.elf: CMakeFiles/test.dir/AlgoVari.cpp.obj
 test.elf: CMakeFiles/test.dir/Clock.cpp.obj
 test.elf: CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 test.elf: CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
@@ -1347,7 +1363,7 @@ test.elf: CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/hardware_
 test.elf: CMakeFiles/test.dir/build.make
 test.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 test.elf: CMakeFiles/test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Linking CXX executable test.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Linking CXX executable test.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test.dir/link.txt --verbose=$(VERBOSE)
 	/opt/homebrew/bin/arm-none-eabi-objcopy -Oihex /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/test.elf test.hex
 	/opt/homebrew/bin/arm-none-eabi-objcopy -Obinary /Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/build/test.elf test.bin

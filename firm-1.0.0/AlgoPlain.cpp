@@ -1,10 +1,23 @@
 #include "AlgoPlain.h"
 #include "jfunc.h"
 
-AlgoPlain::AlgoPlain(int tempInPin, int tempOutPin,int tempWeekday, int tempCycle, int tempSeed)
+AlgoPlain::AlgoPlain(int tempID, int tempWeekday, int tempCycle, int tempSeed)
 {
-	outPin=tempOutPin;
-	inPin=tempInPin;
+    ID = tempID;
+
+    if(ID==1)
+    {
+        inPin = 14;
+        outPin= 15;
+        resetLED=22;
+    }
+
+    if(ID==2)
+    {
+        inPin = 13;
+        outPin= 12;
+        resetLED=21;
+    }    
 
 	weekday=tempWeekday;
 	cyclePos=tempCycle;
@@ -67,6 +80,20 @@ void AlgoPlain::init()
 void AlgoPlain:: tick()
 {
 	//printf("gp %d \n", gpio_get(inPin));
+    
+    if(resetOn)
+    {
+        resetDur++;
+        //printf("reset: %d \n",resetDur);
+        gpio_put(resetLED,1);
+
+        if(resetDur>90000)
+        {
+            resetDur=0;
+            resetOn=false;
+            gpio_put(resetLED,0);
+        }
+    }
 
     int state=gpio_get(inPin);
 
@@ -84,7 +111,10 @@ void AlgoPlain:: tick()
 
            if(seqInd>seqMax-1)
            {
+               //RESET
                seqInd=0;
+
+               resetOn=true;
            }
 
            played=true;

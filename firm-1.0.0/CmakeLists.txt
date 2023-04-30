@@ -20,6 +20,7 @@ add_executable(test
   AlgoBlocks.cpp
   AlgoWonk.cpp 
   AlgoSparse.cpp
+  AlgoVari.cpp
   Clock.cpp
 )
 

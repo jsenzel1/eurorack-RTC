@@ -188,6 +188,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/AlgoPlain.cpp" "CMakeFiles/test.dir/AlgoPlain.cpp.obj" "gcc" "CMakeFiles/test.dir/AlgoPlain.cpp.obj.d"
   "/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/AlgoReich.cpp" "CMakeFiles/test.dir/AlgoReich.cpp.obj" "gcc" "CMakeFiles/test.dir/AlgoReich.cpp.obj.d"
   "/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/AlgoSparse.cpp" "CMakeFiles/test.dir/AlgoSparse.cpp.obj" "gcc" "CMakeFiles/test.dir/AlgoSparse.cpp.obj.d"
+  "/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/AlgoVari.cpp" "CMakeFiles/test.dir/AlgoVari.cpp.obj" "gcc" "CMakeFiles/test.dir/AlgoVari.cpp.obj.d"
   "/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/AlgoWonk.cpp" "CMakeFiles/test.dir/AlgoWonk.cpp.obj" "gcc" "CMakeFiles/test.dir/AlgoWonk.cpp.obj.d"
   "/Users/jonah/pico/pcbrock/eurorack-RTC/firm-1.0.0/Clock.cpp" "CMakeFiles/test.dir/Clock.cpp.obj" "gcc" "CMakeFiles/test.dir/Clock.cpp.obj.d"
   "/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp" "CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" "gcc" "CMakeFiles/test.dir/Users/jonah/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d"

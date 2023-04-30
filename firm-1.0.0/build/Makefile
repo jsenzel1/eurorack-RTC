@@ -364,6 +364,30 @@ AlgoSparse.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/AlgoSparse.cpp.s
 .PHONY : AlgoSparse.cpp.s
 
+AlgoVari.obj: AlgoVari.cpp.obj
+.PHONY : AlgoVari.obj
+
+# target to build an object file
+AlgoVari.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/AlgoVari.cpp.obj
+.PHONY : AlgoVari.cpp.obj
+
+AlgoVari.i: AlgoVari.cpp.i
+.PHONY : AlgoVari.i
+
+# target to preprocess a source file
+AlgoVari.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/AlgoVari.cpp.i
+.PHONY : AlgoVari.cpp.i
+
+AlgoVari.s: AlgoVari.cpp.s
+.PHONY : AlgoVari.s
+
+# target to generate assembly for a file
+AlgoVari.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/AlgoVari.cpp.s
+.PHONY : AlgoVari.cpp.s
+
 AlgoWonk.obj: AlgoWonk.cpp.obj
 .PHONY : AlgoWonk.obj
 
@@ -1998,6 +2022,9 @@ help:
 	@echo "... AlgoSparse.obj"
 	@echo "... AlgoSparse.i"
 	@echo "... AlgoSparse.s"
+	@echo "... AlgoVari.obj"
+	@echo "... AlgoVari.i"
+	@echo "... AlgoVari.s"
 	@echo "... AlgoWonk.obj"
 	@echo "... AlgoWonk.i"
 	@echo "... AlgoWonk.s"

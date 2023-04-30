@@ -9,7 +9,7 @@ int testVarEpoch=-1;
 
 // true=random rolls on startup
 bool testVarRandom=false;
-int  testVarSeed=150;
+int testVarSeed=180;
 
 int curEpoch=0;
 int seedOffset=1;
@@ -33,6 +33,7 @@ int seedOffset=1;
 #include "AlgoBlocks.h"
 #include "AlgoWonk.h"
 #include "AlgoOver.h"
+#include "AlgoVari.h"
 #include "Moon.h"
 #include "Clock.h"
 #include "Light.h"
@@ -64,6 +65,9 @@ int outPin2=12;
 
 int ledPin1=19;
 int ledPin2=20;
+
+int resetLED1=22;
+int resetLED2=21;
 
 // TIME VARS
 
@@ -110,6 +114,9 @@ AlgoWonk *myWonk2;
 AlgoOver *myOver1;
 AlgoOver *myOver2;
 
+AlgoVari *myVari1;
+AlgoVari *myVari2;
+
 //string_t theDate="this is the date";
 
 
@@ -153,6 +160,12 @@ void setup()
 
   gpio_set_dir(ledPin1,GPIO_OUT);
   gpio_set_dir(ledPin2,GPIO_OUT);
+
+  gpio_init(resetLED1);
+  gpio_init(resetLED2);
+
+  gpio_set_dir(resetLED1,GPIO_OUT);
+  gpio_set_dir(resetLED2,GPIO_OUT);
 
   myClock = new Clock;
   gpio_init(3);
@@ -254,14 +267,11 @@ void algoSetup()
 	printf("CURRENT: Plain Algo\n");
 	printf("cycle read: %d \n",cycle);
 
-    myPlain1 = new AlgoPlain(inPin1,outPin1,curWeekday,cycle,todaySeed);
+    myPlain1 = new AlgoPlain(1,curWeekday,cycle,todaySeed);
 
-    if(cycle==4)
-    {
-        srand(todaySeed);
-    }
+    if(cycle==4){srand(todaySeed);}
 
-    myPlain2 = new AlgoPlain(inPin2,outPin2,curWeekday,cycle,todaySeed);
+    myPlain2 = new AlgoPlain(2,curWeekday,cycle,todaySeed);
 
     myPlain1->init();
     //srand(todaySeed);
@@ -272,22 +282,13 @@ void algoSetup()
 	case 1:
 		printf("CURRENT: Reich Algo\n");
 
-    myReich1 = new AlgoReich();
-    myReich2 = new AlgoReich();
+    myReich1 = new AlgoReich(1,curWeekday,cycle,todaySeed);
+    myReich2 = new AlgoReich(2,curWeekday,cycle,todaySeed);
 
-    myReich1->init(true,inPin1,outPin1,curWeekday,cycle,todaySeed);
-
-    if(cycle==4)
-    {
-
-        srand(todaySeed);
-        myReich2->init(true,inPin2,outPin2,curWeekday,cycle,todaySeed);
-
-    }else{
-
-        myReich2->init(false,inPin2,outPin2,curWeekday,cycle,todaySeed);
-
-    }
+    //this code is weird because it prototypes the "isA" param
+    myReich1->init();
+    if(cycle==4){srand(todaySeed);}
+    myReich2->init();
 
     //int seedOffsetter=random(-100,100);
     //^^THIS LINE OF CODE DESTROYS THE UNIVERSE FOR SOME REASON
@@ -296,28 +297,32 @@ void algoSetup()
     break;
 
   case 2:
-		printf("CURRENT: Culture Algo\n");
 
-    myCulture1 = new AlgoCulture;
-    myCulture2 = new AlgoCulture;
+    printf("CURRENT: Sparse Algo\n");
 
-    myCulture1->init(inPin1,outPin1,1,4);
-    //Culture1->init(inPin1,outPin1,curWeekday,cycle);
-    myCulture2->init(inPin2,outPin2,curWeekday,cycle);
+    mySparse1 = new AlgoSparse(1,curWeekday,cycle);
+    mySparse2 = new AlgoSparse(2,curWeekday,cycle);
+
+    mySparse1->init();
+    mySparse2->init();
 
     break;
+
 
 	case 3:
 
-		printf("CURRENT: Sparse Algo\n");
+    printf("Current: Algo Vari \n");
 
-    mySparse1 = new AlgoSparse;
-    mySparse2 = new AlgoSparse;
+    myVari1 = new AlgoVari(1,curWeekday,cycle);
 
-    mySparse1->init(inPin1,outPin1,curWeekday,cycle);
-    mySparse2->init(inPin2,outPin2,curWeekday,cycle);
+    if(cycle==4){srand(todaySeed);}
 
+    myVari2 = new AlgoVari(2,curWeekday,cycle);
+
+    myVari1->init();
+    myVari2->init();
     break;
+
 
   case 4:
 
@@ -355,6 +360,17 @@ void algoSetup()
 
     break;
 
+  case 7:
+    printf("CURRENT: Culture Algo\n");
+
+    myCulture1 = new AlgoCulture;
+    myCulture2 = new AlgoCulture;
+
+    myCulture1->init(inPin1,outPin1,1,4);
+    //Culture1->init(inPin1,outPin1,curWeekday,cycle);
+    myCulture2->init(inPin2,outPin2,curWeekday,cycle);
+
+    break;
     }
 }
 
@@ -395,43 +411,43 @@ void loop()
   	switch(curEpoch)
   	{
   	case 0:
-
   		myPlain1->tick();
-
-        if(cycle != 0)
-        {
-  		myPlain2->tick();
-        }
-
+        if(cycle != 0){myPlain2->tick();}
      break;
 
   	case 1:
   		myReich1->tick();
-  		myReich2->tick();
+  		if(cycle != 0){myReich2->tick();}
      break;
 
   	case 2:
-  		myCulture1->tick();
-  		myCulture2->tick();
+  		mySparse1->tick();
+  		if(cycle != 0){mySparse2->tick();}
      break;
 
   	case 3:
-  		mySparse1->tick();
-  		mySparse2->tick();
+  		myVari1->tick();
+  		if(cycle != 0){myVari2->tick();}
       break;
 
   	case 4:
   		myBlocks1->tick();
-  		myBlocks2->tick();
+  		if(cycle !=0){myBlocks2->tick();}
       break;
 
   	case 5:
   		myWonk1->tick();
-  		myWonk2->tick();
+  		if(cycle !=0){myWonk2->tick();}
       break;
+
     case 6:
       myOver1->tick();
-      myOver2->tick();
+  	  if(cycle !=0){myOver2->tick();}
+    break;
+
+    case 7:
+      myCulture1->tick();
+  	  if(cycle !=0){myCulture2->tick();}
     break;
 
     }

@@ -18,18 +18,24 @@ class AlgoPlain
 
   public:
 
-      int seed;
+      int seed=0;
 
-      int inPin;
-	  int outPin;
-	  
+	  int ID=0; 
+	  int resetLED=0; 
+
+      bool resetOn=false;
+      int resetDur=0;
+
+      int inPin=0;
+      int outPin=0;
+
 	  void init();
 	  void tick();
 
 	  bool stepVal;
 
-      //inpin outpin ledpin, weekday, cycle,seed
-	  AlgoPlain(int,int,int,int,int);
+      //ID ledpin, weekday, cycle,seed
+	  AlgoPlain(int,int,int,int);
 
 	  ~AlgoPlain();
 };

@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/test.dir/AlgoReich.cpp.obj.d"
   "CMakeFiles/test.dir/AlgoSparse.cpp.obj"
   "CMakeFiles/test.dir/AlgoSparse.cpp.obj.d"
+  "CMakeFiles/test.dir/AlgoVari.cpp.obj"
+  "CMakeFiles/test.dir/AlgoVari.cpp.obj.d"
   "CMakeFiles/test.dir/AlgoWonk.cpp.obj"
   "CMakeFiles/test.dir/AlgoWonk.cpp.obj.d"
   "CMakeFiles/test.dir/Clock.cpp.obj"

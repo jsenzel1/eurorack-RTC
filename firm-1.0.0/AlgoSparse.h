@@ -1,5 +1,3 @@
-
-
 #include <stdio.h>
 #include "pico/stdlib.h"
 #include "jfunc.h" 
@@ -18,11 +16,15 @@ class AlgoSparse
 		int densityPercent;
 
 	public:
+        int ID;
 		int inPin; int outPin;
-		void init(int,int,int,int);
+
+        int resetLED; int resetOn; int resetDur;
+
+		void init();
 		void tick();
 
-		AlgoSparse();
+		AlgoSparse(int,int,int);
 		~AlgoSparse();
 
 };

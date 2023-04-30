@@ -1,17 +1,65 @@
 #include "AlgoSparse.h"
 
-AlgoSparse::AlgoSparse()
+AlgoSparse::AlgoSparse(int tempID, int tempWeekday, int tempCycle)
 {
+    ID=tempID;
+
+    if(ID==1)
+    {
+        inPin = 14;
+        outPin= 15;
+        resetLED=22;
+    }
+
+    if(ID==2)
+    {
+        inPin = 13;
+        outPin= 12;
+        resetLED=21;
+    }    
+
+    myWeekday=tempWeekday;
+    cyclePos=tempCycle;
 
 }
 
 
-void AlgoSparse::init(int tempInPin, int tempOutPin, int tempWeekday, int tempCycle)
+void AlgoSparse::init()
 {
-	outPin=tempOutPin;
-	inPin=tempInPin;
-	myWeekday=tempWeekday+1;
-	cyclePos=tempCycle;
+
+	switch (cyclePos)
+	{
+			//new moon
+			case 0:
+					seqMax=random(10,25);
+					break;
+
+			//waxing or waning crescent
+			case 1:
+			case 7:
+					seqMax=random(15,30+1);
+					break;
+
+			//first or last quarter
+			case 2:
+			case 6:
+					seqMax=(20,32+1);
+					break;
+
+			//waxing or waning gibbous
+			case 3:
+					seqMax=16;
+					break;
+			case 5:
+					seqMax=32;
+					break;
+			//full moon
+			case 4:
+					//seqMax=random(20,40+1);
+					seqMax=32;
+					break;
+
+	}
 
 	printf("sparse week\n");
 	printf("%d\n", myWeekday);
@@ -20,7 +68,7 @@ void AlgoSparse::init(int tempInPin, int tempOutPin, int tempWeekday, int tempCy
 	printf("Density %\n");
 	printf("%d\n", densityPercent);
 
-        seqMax = random(20,31);
+        //seqMax = random(20,31);
 	printf("Seq Max\n");
 	printf("%d\n", seqMax);
 	//seqMax=32;
@@ -50,6 +98,20 @@ void AlgoSparse::init(int tempInPin, int tempOutPin, int tempWeekday, int tempCy
 
 void AlgoSparse::tick()
 {
+    if(resetOn)
+    {
+        resetDur++;
+
+        gpio_put(resetLED,1);
+
+        if(resetDur>90000)
+        {
+            resetDur=0;
+            resetOn=false;
+            gpio_put(resetLED,0);
+        }
+    }
+
 	if( gpio_get(inPin)>0)
 	{
     //printf("ON\n");
@@ -61,6 +123,7 @@ void AlgoSparse::tick()
 			{
 				seqInd=0;
 				printf("sparseReset\n");
+                resetOn=true;
 			}
 
 			if(seq[seqInd]==1)

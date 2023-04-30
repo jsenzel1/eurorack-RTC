@@ -69,6 +69,26 @@ class Light
                 bVal=255;
                 printf("case 1");
                 break;
+
+            case 6:
+                rVal=255;
+                gVal=255;   
+                bVal=30;
+                printf("yellow");
+                break;
+
+            case 7:
+                rVal=138;
+                gVal=40;   
+                bVal=150;
+                printf("purple");
+                break;
+            case 8:
+                rVal=67;
+                gVal=190;   
+                bVal=95;
+                printf("case 1");
+                break;
         }
 
         rVal=(rVal*100)/255;

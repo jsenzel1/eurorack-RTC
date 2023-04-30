@@ -15,7 +15,7 @@ class AlgoVari
         int seqMax=0;
         int seqInd=0;
 
-        bool palyed=false;
+        bool played=false;
 
         int maxRepeats=0;
         int repeats=0;
@@ -23,8 +23,16 @@ class AlgoVari
         int weekday=0;
         int cyclePos=0;
 
+        int resetLED=0;
+
+        bool resetOn = false;
+        int resetDur = 0;
+
    public:
         int ID=0;
+
+        int inPin;
+        int outPin;
 
         void init();
         void tick();

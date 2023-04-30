@@ -1,19 +1,20 @@
 #include "AlgoReich.h"
 
-
-AlgoReich::AlgoReich()
+AlgoReich::AlgoReich(int tempID,int tempWeekday, int tempCycle, long tempSeed) 
 {
+  myWeekday=tempWeekday+1;
+  cyclePos=tempCycle;
+  seed=tempSeed;
+  ID=tempID;
 }
 
-void AlgoReich:: init(bool tempIsA, int tempInPin, int tempOutPin,int tempWeekday, int tempCycle, long tempSeed) //int tempSpread)
+void AlgoReich:: init()
 {
 
   //set to -1 to disable
   testVarSeqMax=-1;
-  //testVarSeqMax=-1;
-  //
 
-  if(isA)
+  if(ID==1)
   //A
   {
       testVarSeqMax=6;
@@ -23,14 +24,22 @@ void AlgoReich:: init(bool tempIsA, int tempInPin, int tempOutPin,int tempWeekda
   }
   testVarSeqMax=-1;
 
-  inPin=tempInPin;
-  outPin=tempOutPin;
-  myWeekday=tempWeekday+1;
-  cyclePos=tempCycle;
-  seed=tempSeed;
+  if(ID==1)
+  {
+      inPin=14;
+      outPin=15;
+      resetLED=22;
+  } 
+
+  if(ID==2)
+  {
+      inPin=13;
+      outPin=12;
+      resetLED=21;
+  } 
+  
 
   //spread=tempSpread;
-  isA=tempIsA;
 
   printf("\n");
   printf("ALGOOOREICH\n");
@@ -39,32 +48,35 @@ void AlgoReich:: init(bool tempIsA, int tempInPin, int tempOutPin,int tempWeekda
   {
       //new moon
       case 0:
-          seqMax=random(5,6+1);
+          seqMax=random(3,5+1);
           break;
 
       //waxing or waning crescent
       case 1:
       case 7:
-          seqMax=random(7,9+1);
+          //seqMax=random(6,8+1);
+          seqMax=random(3,5+1);
           break;
 
       //first or last quarter
       case 2:
       case 6:
-          seqMax=(10,12+1);
+          //seqMax=(8,10+1);         
+          seqMax=random(4,7+1);
           break;
 
       //waxing or waning gibbous
       case 3:
-      case 5:
-
-          srand(seed);
-          seqMax=random(13,15+1);
+          seqMax=4;
+          break;
+      case 5: 
+          //srand(seed);
+          seqMax=6;
           break;
 
       case 4:
           //seqMax=random(20,40+1);
-          seqMax=16;
+          seqMax=8;
           break;
 
   }
@@ -85,6 +97,21 @@ void AlgoReich:: init(bool tempIsA, int tempInPin, int tempOutPin,int tempWeekda
     {
 	    seq[i]=1;
     }
+  }
+
+  bool empty=true; 
+  for(int i=0; i<seqMax; i++)
+  {
+      if(seq[i] != 0)
+      {
+          empty=false;
+          break;
+      }
+  }
+  if(empty)
+  {
+      int rIndex=random(0,seqMax);
+      seq[rIndex]=1;
   }
 
   //LOG TO CONSOLE
@@ -114,31 +141,19 @@ void AlgoReich:: init(bool tempIsA, int tempInPin, int tempOutPin,int tempWeekda
 void AlgoReich:: tick()
 {
 
-  //metronomeTest
-  //gpio_put(19,gpio_get(inPin));
-//  gpio_put(outPin,gpio_get(inPin));
-
-  /*
-  if(timer%10==0){
-  printf("timer: %d \n",timer);
-  }
-
-  timer--;
-
-  if(timer<100)
+  if(resetOn)
   {
-      //timer=0;
-  }
+      resetDur++;
 
-  int div=100/timer;
-  printf("div: %d \n",100/timer);
+      gpio_put(resetLED,1);
 
-  sleep_ms(20);
-
-
-  //printf("reichtick\n");
-  //
-  */
+      if(resetDur>90000)
+      {
+          resetDur=0;
+          resetOn=false;
+          gpio_put(resetLED,0);
+      }
+  }  
 
   if(gpio_get(inPin)>0)
   {
@@ -164,13 +179,14 @@ void AlgoReich:: tick()
         if(muteInd > seqMax)
         {
 
-
+          //reset
           muteInd=0;
 
           for(int i=0; i< seqMax; i++)
           {
             mute[i]=0;
           }
+          resetOn=true;
 
         }
       }

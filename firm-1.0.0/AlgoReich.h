@@ -21,7 +21,7 @@ class AlgoReich
     int myWeekday;
     int cyclePos;
 
-    bool isA; 
+    
     int spread;
 
     //new vars
@@ -31,19 +31,25 @@ class AlgoReich
     
   public:
 
-   int inPin;  
-   int outPin;  
+   int inPin=0;  
+   int outPin=0;  
 
-   long seed;
+   int ID=0;
 
-   //isA, inPin, outPin, weekday, cycle, seed //[maybe]spread
-   void init(bool,int,int,int,int,long);//,int);
+   int resetLED=0;
+   bool resetOn=false;
+   int resetDur=0;
+
+   long seed=0;
+
+   void init();
    
    void tick();
    bool stepVal;
 
 
-   AlgoReich();
+   //ID, weekday, cycle, seed //[maybe]spread
+   AlgoReich(int,int,int,long);
    
    ~AlgoReich();
  };
